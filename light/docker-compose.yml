@@ -48,7 +48,6 @@ services:
 networks:
   db_net:
     driver: bridge
-    name: faNetwork
 
 volumes:
   db_data:
